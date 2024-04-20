@@ -42,7 +42,7 @@ header{
     #top_section_header{
         display: flex; justify-content: space-between;
         min-height: 7vh; position: relative;
-        border-bottom: 7px black solid;
+        border-bottom: 4px black solid;
         z-index: 2;
         background-color: white;
     }
@@ -65,7 +65,7 @@ header{
             }
 
     #nav_section{
-        border-bottom: 7px black solid;
+        border-bottom: 4px black solid;
         display: flex; flex-direction: column;
         height: 93vh;
 
@@ -80,7 +80,7 @@ header{
         }
         #project_menu{
             width: 100vw;
-            border-bottom: 7px black solid;
+            border-bottom: 4px black solid;
         }
             #project_menu{
                 margin-bottom: 0.5vh;
