@@ -1,0 +1,213 @@
+*{
+    margin: 0; padding: 0;
+}
+
+
+h3, p{
+    font-family: "elza-text", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    user-select: none;
+    
+}
+
+    h3, p{
+        font-size: 1.5vw;
+        line-height: 1.2;
+    }
+
+    a, a:visited{
+        color: black;
+        text-decoration: none;
+    }
+
+.btn, .lang_btn{
+    cursor: pointer;
+    width: fit-content;
+}
+    .btn:hover, .lang_btn:hover,.link:hover, #name:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .btn_selected{
+        text-decoration: underline;
+    }
+
+
+header{
+    position: fixed;
+    width: 100vw;
+}
+    #top_section_header{
+        display: flex; justify-content: space-between;
+        min-height: 7vh; position: relative;
+        border-bottom: 7px black solid;
+        z-index: 2;
+        background-color: white;
+    }
+        #name, #header_btn_div{
+            position: absolute; bottom: 0.3vh;
+        }   
+            #name{
+                left: 2vw;
+                display: flex;
+            }
+                #plus_btn{
+                    margin-left: 0.4vw;
+                    cursor: pointer;
+                }
+
+            #header_btn_div{
+                width: 48vw;
+                right: 2vw;
+                display: flex; justify-content: space-between;
+            }
+
+    #nav_section{
+        border-bottom: 7px black solid;
+        display: flex; flex-direction: column;
+        height: 93vh;
+
+        transition: 0.3s linear;
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(10px);
+        background-color: rgba(255,255,255,0.2);
+    }
+        #project_menu, #project_info{
+            padding-left: 2vw; padding-right: 2vw;
+            padding-top: 2vh; padding-bottom: 2vh;
+        }
+        #project_menu{
+            width: 100vw;
+            border-bottom: 7px black solid;
+        }
+            #project_menu{
+                margin-bottom: 0.5vh;
+            }
+            #about_btn{
+                margin-bottom: 1.5vh;
+            }
+
+        #project_info{
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .link{
+                margin-top: 2vh;
+            }
+
+            #project_text_div{
+                width: 48vw;
+            }
+                #project_text_div p{
+                    margin-bottom: 1.5vh;
+                }
+
+        #lang_btn_div{
+            display: flex; justify-content: space-between;
+            width: 7vw;
+            height: 0vh; opacity: 0; transition: 0.5s linear;
+        }
+            #lang_btn_div .btn_selected{
+                margin-left: 0;
+            }
+
+#scroll_body{
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: scroll;
+}
+    img, video{
+        -webkit-user-drag: none;
+        height: 90vh;
+        position: absolute;
+        z-index: -1;
+        animation: fadein 0.2s linear;
+    }
+    video{
+        border-radius: 1vw;
+        box-shadow: grey 10px 20px 100px;
+    }
+        #about_video{
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+    @keyframes fadein {
+        from{
+            opacity: 0;
+            transform: translate(0,30px);
+        } to {
+            opacity: 1;
+            transform: translate(0,0);
+        }
+    }
+
+
+
+
+@media (orientation: portrait) {
+    h3,p{
+        font-size: 4.3vw;
+        margin-bottom: 0.5vh;
+    }
+
+
+    #top_section_header, #nav_section,#project_menu{
+        border-bottom: 2px black solid;
+    }
+    #top_section_header{
+        min-height: 8vh;
+    }
+        #name{
+            left: 4vw;
+            top: 0.5vh;
+        }
+
+        #header_btn_div{
+            left: 4vw;
+            width: 92vw;
+        }
+
+            #lang_btn_div{
+                width: 22vw;
+            }
+
+    #nav_section{
+        padding: 0;
+    }
+        #project_menu, #project_info{
+            width: 92vw;
+            padding: 4vw;
+        }
+            #about_btn{
+                margin-bottom: 1.5vh;
+            }
+
+        #project_info{
+            display: block;
+        }
+
+            #project_tags_div,#project_text_div{
+                width: 92vw;
+            }
+            #project_tags_div{
+                margin-bottom: 4vh;
+            }
+                #project_tags_div p{
+                    margin-bottom: 1vh;
+                }
+                #project_text_div{
+                    text-wrap: wrap;
+                }
+
+    img, video{
+        height: 60vh;
+    }
+    video{
+        border-radius: 3vw;
+        box-shadow: grey 0px 5px 30px;
+    }
+}
