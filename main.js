@@ -1,6 +1,8 @@
 let project_text_div = document.getElementById("project_text_div");
 let project_tags_div = document.getElementById("project_tags_div")
 
+let about_btn = document.getElementById("about_btn")
+
 let name_btn = document.getElementById("name");
 let nav_section = document.getElementById("nav_section");
 let nav_open = true;
@@ -62,13 +64,13 @@ fetch("data.json")
                             makeText();
 
                             if(currentLang === "es"){
-                                document.getElementById("about_btn").innerText = "Sobre mí";
+                                about_btn.innerText = "Sobre mí";
                                 document.getElementById("project_btn_3").innerText = "Una hermosa amistad con Spotify";
                             } else if(currentLang === "eng") {
-                                document.getElementById("about_btn").innerText = "About";
+                                about_btn.innerText = "About";
                                 document.getElementById("project_btn_3").innerText = "A beautiful friendship with Spotify";
                             } else if(currentLang === "pt") {
-                                document.getElementById("about_btn").innerText = "Sobre mim";
+                                about_btn.innerText = "Sobre mim";
                                 document.getElementById("project_btn_3").innerText = "Uma linda amizade com o Spotify";
                             };;
                         })
@@ -82,12 +84,16 @@ fetch("data.json")
 
                 project_tags_div.innerHTML = "";
                 if(engTags){
+                    project_tags_div.style.marginBottom = 4 + "vh";
+
                     const tagsArray = currentTags.split(";");
                         for(k=0;k<tagsArray.length;k++){
                             let tag = document.createElement("p");
                                 tag.innerText = "◊ " + tagsArray[k];
                                 project_tags_div.appendChild(tag)
                         }
+                } else if(!engTags) {
+                    project_tags_div.style.marginBottom = 0;
                 }
                 if(pageLink){
                     let link = document.createElement("p");
@@ -116,6 +122,8 @@ fetch("data.json")
 
             let button = document.getElementById(projectId);
                 button.addEventListener("click",()=>{
+                    
+                    about_btn.classList.remove("tiny_nudge_animation");
 
                     window.scrollTo(0,0)
 
