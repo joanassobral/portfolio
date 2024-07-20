@@ -45,8 +45,12 @@ fetch("data.json")
             let pageLink = data[i].link;
 
             let numberImgs = data[i].numberImgs;
-            let x_coords = data[i].x_coords;
-            let y_coords = data[i].y_coords;
+            let x_coords_imgs = data[i].x_coords_imgs;
+            let y_coords_imgs = data[i].y_coords_imgs;
+
+            let numberVids = data[i].numberVids;
+            let x_coords_vids = data[i].x_coords_vids;
+            let y_coords_vids = data[i].y_coords_vids;
 
             function makeText(){
 
@@ -138,58 +142,55 @@ fetch("data.json")
                     makeText();
 
                     scroll_body.innerHTML = "";
+
                     for(m=0;m<numberImgs;m++){
                         let project_img = document.createElement("img");
                             project_img.src = "Media/" + projectId + "/" + m + ".png"
                             
-                            const x_coords_array = x_coords.split(",");
-                            const y_coords_array = y_coords.split(",");
+                            const x_coords_array = x_coords_imgs.split(",");
+                            const y_coords_array = y_coords_imgs.split(",");
                             project_img.style.left = x_coords_array[m] + "vh";
                             project_img.style.top = y_coords_array[m] + "vh";
 
-                            function makeVideo(elementNumber){
-                                let video = document.createElement("video");
-                                    video.src = "Media/" + projectId + "/" + elementNumber + ".mp4"
-                                        video.autoplay = true;
-                                        video.loop = true;
-                                        video.playsInline = true;
-                                        video.muted = true;
-                                        video.style.left = x_coords_array[elementNumber] + "vh";
-                                        video.style.top = y_coords_array[elementNumber] + "vh";
-                                        scroll_body.appendChild(video)
-
-                                        if(currentProject === "about_btn"){
-                                            video.id = "about_video";
-                                        }
-
-                                        if(window.innerHeight>window.innerWidth){
-                                            video.style.left = (x_coords_array[elementNumber]*0.70) + "vh";
-                                            video.style.top = (y_coords_array[elementNumber]*0.70) + "vh";
-                                        }
+                            if(currentProject === "project_btn_4"){
+                                console.log(currentProject)
+                                project_img.classList.add("long_img")
                             }
 
-                            if(currentProject === "about_btn"){
-                                makeVideo(4);
-                            }
-
-                            if(currentProject === "project_btn_2"){
-                                makeVideo(1);
-                                makeVideo(2);
-                            }
-
-                            if(currentProject === "project_btn_3"){
-                                makeVideo(0);
-                            }
+                            scroll_body.appendChild(project_img)
 
                             if(window.innerHeight>window.innerWidth){
                                 project_img.style.left = (x_coords_array[m]*0.70) + "vh";
                                 project_img.style.top = (y_coords_array[m]*0.70) + "vh";
                             }
+                    }
 
-                            scroll_body.appendChild(project_img)
+                    for(n=0;n<numberVids;n++){
+                        let video = document.createElement("video");
+                            video.src = "Media/" + projectId + "/" + n + ".mp4"
+                            video.autoplay = true;
+                            video.loop = true;
+                            video.playsInline = true;
+                            video.muted = true;
+                            scroll_body.appendChild(video)
+                            
+                            const x_coords_array = x_coords_vids.split(",");
+                            const y_coords_array = y_coords_vids.split(",");
+                            video.style.left = x_coords_array[n] + "vh";
+                            video.style.top = y_coords_array[n] + "vh";
+
+                            if(currentProject === "about_btn"){
+                                video.id = "about_video";
+                            }
+
+                            scroll_body.appendChild(video)   
+
+                            if(window.innerHeight>window.innerWidth){
+                                video.style.left = (x_coords_array[n]*0.70) + "vh";
+                                video.style.top = (y_coords_array[n]*0.70) + "vh";
+                            }
                     }
                 })
-
         }
     })
 

@@ -8,9 +8,12 @@
     "engText": "Multi-disciplinary designer with a developing focus in web design (+ 99.999 other media) through an unwaveringly human approach.;Portuguese, currently based between Rotterdam (NL) studying Graphic Design at The Royal Academy of Arts of The Hague (KABK), looking for an internship in Europe.",
     "esText": "Diseñadora multi-disciplinar desarrollando un enfoque en diseño web (+ 99.999 otros medios) de una perspectiva humana siempre presente.;Portuguesa, actualmente radicada en Róterdam (Países Bajos), estudiando diseño gráfico en The Royal Academy of Arts of The Hague (KABK), buscando unas prácticas en Europa.",
     "ptText":"Designer multi-disciplinar a desenvolver um foco em web design (+ 99.999 outros medios) de uma perspetiva humana sempre presente.;Portuguesa, atualmente baseada em Roterdão (Países Baixos), a estudar design gráfico na Royal Academy of Arts of The Hague (KABK), procurando fazer um estágio algures pela Europa.",
-    "numberImgs": 6,
-    "x_coords": "5,145,215,110,285,45",
-    "y_coords": "15,50,100,150,100,110"
+    "numberImgs": 5,
+    "numberVids": 1,
+    "x_coords_imgs": "5,145,215,285,45",
+    "y_coords_imgs": "15,50,100,100,110",
+    "x_coords_vids": "110",
+    "y_coords_vids": "150"
   },
   {
     "projectId": "project_btn_1",
@@ -22,8 +25,11 @@
     "esText": "Un catálogo para Huis van het Boek, coleccionando cada cópia de la seleción de 1987 del premio Best Dutch Book Design (Mejor Diseño de Libro Holandés) encontrada en Marktplaats (el equivalente del Ebay en Países Bajos). Reflexiona sobre el cresciente glamour de competiciones de este tipo, y la presencia online de su documentación.",
     "ptText": "Um catálogo para a Huis van het Boek, colecionando cada cópia da seleção de 1987 do prémio Best Dutch Book Design encontrada no Marktplaats (o equivalente neerlandês do OLX). Reflete sobre o glamour que competições de este tipo têm vindo a desenvolver, e sobre a presença online da proveniente documentação.",
     "numberImgs": 5,
-    "x_coords": "5,145.5,145.5,290.5,240.5,193.7",
-    "y_coords": "13,105,13,200,105,101.5"
+    "numberVids": 0,
+    "x_coords_imgs": "5,145.5,145.5,290.5,240.5,193.7",
+    "y_coords_imgs": "13,105,13,200,105,101.5",
+    "x_coords_vids": "",
+    "y_coords_vids": ""
   },
   {
     "projectId": "project_btn_2",
@@ -34,9 +40,12 @@
     "engText": "A short story about a horse that laid an egg.;How can a horse lay an egg? Who knows, but the sooner you just accept it the better. Reading time, aprox. 5 min.;Originally produced as a (teeny tiny) publication, later adapted to a website.",
     "esText": "Un cuento sobre un caballo que puso un huevo (solamente disponible en inglés).;¿Cómo puede un caballo poner un huevo? Quién sabe, cuanto antes lo acceptes, lo mejor. Tiempo de lectura, aprox. 5 min.;Originalmente producido como una publicación muy muy chiquita, más tarde adaptada a una página web.",
     "ptText": "Um conto sobre um cavalo que pôs um ovo (apenas disponível em inglês).;Como é possível um cavalo pôr um ovo? Quem sabe, mas quanto antes o aceitares, melhor. Tempo de leitura, aprox. 5 min.;Originalmente produzido como uma publicação muuuuito pequenita, mais tarde adaptada à web.",
-    "numberImgs": 5,
-    "x_coords": "295,140,140,0,10",
-    "y_coords": "80,80,180,10,100"
+    "numberImgs": 3,
+    "numberVids": 2,
+    "x_coords_imgs": "295,0,10",
+    "y_coords_imgs": "80,10,100",
+    "x_coords_vids": "140,140",
+    "y_coords_vids": "80,180"
   },
   {
     "projectId": "project_btn_3",
@@ -47,21 +56,27 @@
     "engText": "A text + website reflecting on the role of data analytics in our online daily routines, and how these affect how we think of our personal identities.",
     "esText": "Un texto + website que reflexiona sobre el papel de la analítica de dados in nuestras rutinas diarias digitales, y como estas afectan la manera como pensamos en nuestras identidades personales.",
     "ptText": "Um texto + website que refletem sobre o papel da análise de dados nas nossas rotinas diárias digitais, e como estas afetam as nossas maneiras de pensar nas nossas identidades pessoais.",
-    "numberImgs": 3,
-    "x_coords": "5,128,233",
-    "y_coords": "13,73,73"
+    "numberImgs": 2,
+    "numberVids": 1,
+    "x_coords_imgs": "128,233",
+    "y_coords_imgs": "73,73",
+    "x_coords_vids": "5",
+    "y_coords_vids": "13"
   },
   {
     "projectId": "project_btn_4",
-    "engTags": "Publication Design;Web Design / Development",
-    "esTags": "Diseño Editorial;Diseño / Desarrollo Web",
-    "ptTags": "Design Editorial;Design / Desenvolvimento Web",
-    "link": "https://inside.kabk.nl/2023/",
-    "engText": "Collaboration with Julie Sørensen, Caterina Tioli, and Matteo Pellegrini.;INSIDE is the KABK’s Master’s of Interior Architecture department, each year a physical / digital magazine is made to publish the students’ works.;Two parts: website & print. The website documents everything that was part of INSIDE for that year. The print element is part of the graduation show, and therefore also meant to function as an exhibition catalogue. It consists on individual foldout sheets, that through their design function as a business card, a pamphlet, and a poster dedicated to each graduation project.",
-    "esText": "Colaboración con Julie Sørensen, Caterina Tioli, y Matteo Pellegrini.;INSIDE es el departamento del máster en arquitectura interior de KABK. Cada año, publican los proyectos de los alumnos en una revista física y digital.;Las dos partes: web & impresión. El website documenta todo lo que fue parte de INSIDE ese año escolar. El componente de impresión forma parte de la exposición de graduación, y por eso funciona también como su catálogo. Consiste en hojas despegables multiusos, que funcionan como tarjetas de visita, folletos, y posters dedicados a cada proyecto.",
-    "ptText": "Colaboração com Julie Sørensen, Caterina Tioli, e Matteo Pellegrini.;O INSIDE é o departamento do Master’s em arquitetura interior do KABK. Cada ano, publicam os projetos dos alunos numa revista física e digital.;As duas partes: web & impressão. O website documenta tudo o que foi parte do INSIDE esse ano escolar. A parte de impressão forma parte da exposição de graduação, e por isso funciona também como o seu catálogo. Consiste de folhas desdobráveis multi-usos, que funcionam como cartões de visitas, folhetos, e posters dedicados a cada projeto.",
-    "numberImgs": 18,
-    "x_coords": "0,125,210,430,430,430,280,352,280,352,424,460,500,470,550,600,650,700",
-    "y_coords": "10,27,90,5,90,175,175,175,270,270,270,300,320,395,290,270,300,250"
+    "engTags": "Web Design / Development",
+    "esTags": "Diseño / Desarrollo Web",
+    "ptTags": "Design / Desenvolvimento Web",
+    "link": "https://inside.kabk.nl/2024/",
+    "engText": "INSIDE is the KABK’s Master’s of Interior Architecture department. Each year a new issue of their magazine is made to publish the students’ works, documenting everything that was part of INSIDE for that year.",
+    "esText": "INSIDE es el departamento del máster en arquitectura interior de KABK. Cada año, publican los proyectos de los alumnos en una nueva edición de su revista, documentando todo lo que fue parte de INSIDE ese año escolar.",
+    "ptText": "INSIDE é o departamento do Mestrado em Arquitetura Interior do KABK. Cada ano, publicam os projetos dos alunos numa nova edição da sua revista, documentando tudo o que foi parte do INSIDE esse ano escolar.",
+    "numberImgs": 2,
+    "numberVids": 3,
+    "x_coords_imgs": "50,120",
+    "y_coords_imgs": "12,150",
+    "x_coords_vids": "5,90,110",
+    "y_coords_vids": "13,300,70"
   }
 ]

@@ -145,6 +145,9 @@ header{
         z-index: -1;
         animation: fadein 0.2s linear;
     }
+    .long_img{
+        height: 300vh;
+    }
     video{
         border-radius: 1vw;
         box-shadow: grey 10px 20px 100px;
@@ -220,6 +223,10 @@ header{
 
     img, video{
         height: 60vh;
+    }
+    .long_img{
+        width: 90vw;
+        height: auto;
     }
     video{
         border-radius: 3vw;
