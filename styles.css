@@ -141,16 +141,20 @@ header{
     img, video{
         -webkit-user-drag: none;
         height: 90vh;
-        position: absolute;
-        z-index: -1;
         animation: fadein 0.2s linear;
     }
     .long_img{
         height: 300vh;
     }
+    .spacer_div{
+        position: absolute;
+        padding: 1vw;
+        z-index: -1;
+    }
     video{
         border-radius: 1vw;
         box-shadow: grey 10px 20px 100px;
+        position: relative;
     }
         #about_video{
             border-radius: 0;

@@ -144,51 +144,56 @@ fetch("data.json")
                     scroll_body.innerHTML = "";
 
                     for(m=0;m<numberImgs;m++){
+                        let image_spacer_div = document.createElement("div");
+                            image_spacer_div.classList.add("spacer_div");
+                            scroll_body.appendChild(image_spacer_div)
+
                         let project_img = document.createElement("img");
                             project_img.src = "Media/" + projectId + "/" + m + ".png"
                             
                             const x_coords_array = x_coords_imgs.split(",");
                             const y_coords_array = y_coords_imgs.split(",");
-                            project_img.style.left = x_coords_array[m] + "vh";
-                            project_img.style.top = y_coords_array[m] + "vh";
+                            image_spacer_div.style.left = x_coords_array[m] + "vh";
+                            image_spacer_div.style.top = y_coords_array[m] + "vh";
 
-                            if(currentProject === "project_btn_4"){
-                                console.log(currentProject)
+                            if(currentProject === "project_btn_1" || currentProject === "project_btn_2"){
                                 project_img.classList.add("long_img")
                             }
 
-                            scroll_body.appendChild(project_img)
+                            image_spacer_div.appendChild(project_img)
 
                             if(window.innerHeight>window.innerWidth){
-                                project_img.style.left = (x_coords_array[m]*0.70) + "vh";
-                                project_img.style.top = (y_coords_array[m]*0.70) + "vh";
+                                image_spacer_div.style.left = (x_coords_array[m]*0.70) + "vh";
+                                image_spacer_div.style.top = (y_coords_array[m]*0.70) + "vh";
                             }
                     }
 
                     for(n=0;n<numberVids;n++){
-                        let video = document.createElement("video");
-                            video.src = "Media/" + projectId + "/" + n + ".mp4"
-                            video.autoplay = true;
-                            video.loop = true;
-                            video.playsInline = true;
-                            video.muted = true;
-                            scroll_body.appendChild(video)
-                            
-                            const x_coords_array = x_coords_vids.split(",");
-                            const y_coords_array = y_coords_vids.split(",");
-                            video.style.left = x_coords_array[n] + "vh";
-                            video.style.top = y_coords_array[n] + "vh";
+                        let video_spacer_div = document.createElement("div");
+                            video_spacer_div.classList.add("spacer_div");
+                            scroll_body.appendChild(video_spacer_div)
 
-                            if(currentProject === "about_btn"){
-                                video.id = "about_video";
-                            }
+                            let video = document.createElement("video");
+                                video.src = "Media/" + projectId + "/" + n + ".mp4"
+                                video.autoplay = true;
+                                video.loop = true;
+                                video.playsInline = true;
+                                video.muted = true;
+                                video_spacer_div.appendChild(video)
+                                
+                                const x_coords_array = x_coords_vids.split(",");
+                                const y_coords_array = y_coords_vids.split(",");
+                                video_spacer_div.style.left = x_coords_array[n] + "vh";
+                                video_spacer_div.style.top = y_coords_array[n] + "vh";
 
-                            scroll_body.appendChild(video)   
+                                if(currentProject === "about_btn"){
+                                    video.id = "about_video";
+                                }
 
-                            if(window.innerHeight>window.innerWidth){
-                                video.style.left = (x_coords_array[n]*0.70) + "vh";
-                                video.style.top = (y_coords_array[n]*0.70) + "vh";
-                            }
+                                if(window.innerHeight>window.innerWidth){
+                                    video_spacer_div.style.left = (x_coords_array[n]*0.70) + "vh";
+                                    video_spacer_div.style.top = (y_coords_array[n]*0.70) + "vh";
+                                }
                     }
                 })
         }
