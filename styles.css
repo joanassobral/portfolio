@@ -115,6 +115,8 @@ header{
 
             .link{
                 margin-top: 2vh;
+                width: min-content;
+                white-space: nowrap;
             }
 
             #project_text_div{
