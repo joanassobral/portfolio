@@ -14,8 +14,20 @@
   {
     "projectId": "project_btn_1",
     "Tags": "Writing;Web Design / Development",
+    "link": "https://joanassobral.github.io/Strange-Practice-Useless-Code/",
+    "Text": "My BA Graduation Project: a research project into anti-scraping tactics through code.;Once upon a time you would upload something on the internet and only be concerned with the reactions of other users. Now we worry about whose database these uploads might end up on, and peering into an abyss of corporate mystery, we lose all control of what might be built with them. On an internet that’s become the food-source for generative AI development, this project defends individual ownership. Tackling the issue from square one, it explores alternative approaches to web development to make text content physically inaccessible or useless to these initiatives.",
+    "numberImgs": 0,
+    "numberVids": 3,
+    "x_coords_imgs": "",
+    "y_coords_imgs": "",
+    "x_coords_vids": "2,170,100",
+    "y_coords_vids": "13,13,60"
+  },
+  {
+    "projectId": "project_btn_2",
+    "Tags": "Writing;Web Design / Development",
     "link": "https://kabk.github.io/go-theses-25-joana-sobral/",
-    "Text": "My BA thesis: cybernetics, wilderness, hacking. What does the myth of the werewolf teach us about our relationships with machines?;Wolf-man and man-machine: two dualities in which a wild side seems to drag down a comparatively more functional side. Analyzing these two manifestations of the desire to tame human nature, this text reflects on the place of wilderness within digital technologies, highlighting the inevitability of shapeshifting between wolf, human, and machine.",
+    "Text": "My BA Thesis: cybernetics, wilderness, hacking. What does the myth of the werewolf teach us about our relationships with machines?;Wolf-man and man-machine: two dualities in which a wild side seems to drag down a comparatively more functional side. Analyzing these two manifestations of the desire to tame human nature, this text reflects on the place of wilderness within digital technologies, highlighting the inevitability of shapeshifting between wolf, human, and machine.",
     "numberImgs": 1,
     "numberVids": 3,
     "x_coords_imgs": "2,115",
@@ -24,7 +36,7 @@
     "y_coords_vids": "13,130,70"
   },
   {
-    "projectId": "project_btn_2",
+    "projectId": "project_btn_3",
     "Tags": "Web Design / Development",
     "link": "https://kabk.github.io/go-theses-25/",
     "Text": "The thesis process for Graphic Design in the KABK includes designing and publishing a webpage for the text. This year I developed the landing page which catalogues everyones' websites, designing it in collaboration with Maja Bielawska, Patrycja Fixl, Sára Gázmár, and Nu Zając.",
@@ -36,7 +48,7 @@
     "y_coords_vids": "110,40"
   },
   {
-    "projectId": "project_btn_3",
+    "projectId": "project_btn_4",
     "Tags": "Web Design / Development",
     "link": "https://inside.kabk.nl/2024/",
     "Text": "INSIDE is the KABK’s Master’s of Interior Architecture department. Each year a new issue of their magazine is made to publish the students’ works, documenting everything that was part of INSIDE for that year.",
@@ -48,7 +60,7 @@
     "y_coords_vids": "13,300,70"
   },
   {
-    "projectId": "project_btn_4",
+    "projectId": "project_btn_5",
     "Tags": "Web Design / Development;Typography",
     "link": "https://joanassobral.github.io/brodine/",
     "Text": "In her poetry, Brodine reflects on her freedom of thought as an escape to a work environment hostile to her body and mind. Inspired by this mecanic, this web publication of her poems puts its user to work, juxtaposing the words she wrote against how she performed.",
@@ -60,7 +72,7 @@
     "y_coords_vids": "75,75,250,250"
   },
   {
-    "projectId": "project_btn_5",
+    "projectId": "project_btn_6",
     "Tags": "Writing;Web Design / Development",
     "link": "https://joanassobral.github.io/spotify/",
     "Text": "A text + website reflecting on the role of data analytics in our online daily routines, and how these affect how we think of our personal identities.",
@@ -72,7 +84,7 @@
     "y_coords_vids": "13"
   },
   {
-    "projectId": "project_btn_6",
+    "projectId": "project_btn_7",
     "Tags": "Publication Design",
     "link": "",
     "Text": "A catalogue made for Huis van het Boek, collecting each copy from the 1987 selection of the Best Dutch Book Design awards as found on Marktplaats (the Dutch equivalent of Ebay). Reflects on the growing glamour of design competitions such as these, and the online presence of their documentation.",
@@ -84,7 +96,7 @@
     "y_coords_vids": ""
   },
   {
-    "projectId": "project_btn_7",
+    "projectId": "project_btn_8",
     "Tags": "Fiction Writing;Publication Design;Web Design / Development",
     "link": "https://joanassobral.github.io/horse/",
     "Text": "A short story about a horse that laid an egg.;How can a horse lay an egg? Who knows, but the sooner you just accept it the better. Reading time, aprox. 5 min.;Originally produced as a (teeny tiny) publication, later adapted to a website.",
